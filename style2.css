@@ -1,0 +1,43 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.center1{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  size:20px;
+}
+.cen1{
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+.cen2{
+  position: absolute;
+  top: 10%;
+  left: 78%;
+  transform: translate(-50%, -50%);	
+}
+.cen3{
+  position: absolute;
+  top: 10%;
+  left: 86%;
+  transform: translate(-50%, -50%);	
+}
+.cen4{
+  position: absolute;
+  top: 10%;
+  left: 94%;
+  transform: translate(-50%, -50%);	
+}

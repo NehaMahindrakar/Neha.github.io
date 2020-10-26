@@ -1,0 +1,189 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column1 {
+  float: left;
+  width: 50%;
+}
+.column2 {
+  float: left;
+  width: 50%;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.cen1{
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  size:20px;
+}
+.cen2{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);	
+  size:20px;
+}
+.cen3{
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  transform: translate(-50%, -50%);	
+  size:20px;
+}
+
+.cen4{
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  transform: translate(-50%, -50%);	
+  size:20px;
+}
+.center1{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.center2{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.center3{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.center4{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+
+
+/* Centered text */
+.centered0 {
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   font-size:20px;
+  color:black;
+  font-family:Times New Roman;
+}
+
+.centered1 {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered2 {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
+  color:black;
+  font-family:Times New Roman;
+}
+.centered3 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:30px;
+  color:black;
+}
+.centered4 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:25px;
+  color:black;
+}
+.centered5 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
+  color:black;
+}
+.centered6 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:25px;
+  color:black;
+}
+.centered7 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
+  color:black;
+}
+.centered8 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:30px;
+  color:black;
+}
+.centered9 {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:25px;
+  color:black;
+}
+.centered10 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
+  color:black;
+}
+.content2{
+  position: absolute;
+  top: 19%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
+  color:black;
+}
+.content3{
+  position: absolute;
+  top: 50%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
+  color:black;
+}
+
+.content6{
+  position: absolute;
+  top: 90%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size:20px;
+  color:black;
+}
